@@ -1,0 +1,42 @@
+/* setting overall margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styling the body  */
+body {
+  background-color: white;
+}
+
+/* styling container */
+.container {
+  display: inline-block;
+  /* margin: auto; */
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+/* styling the image */
+.img {
+  display: block;
+  width: 100%;
+}
+
+/* giving the button height width and other styling */
+.btn {
+  border: none;
+  width: 40.5vw;
+  height: 10vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+
+/* hovering effect */
+.btn:hover {
+  cursor: pointer;
+  background: blueviolet;
+}
